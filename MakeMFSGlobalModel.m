@@ -6,7 +6,7 @@ function [x,y,xf,yf,n] = MakeMFSGlobalModel(w,h,nx,ny,dd)
         ny (1,1) {mustBeNumeric, mustBeFinite} = 11;
         dd (1,1) {mustBeNumeric, mustBeFinite} = 0.1;
     end
-
+    % pre git
     xx = linspace(0,w,nx);
     yy = linspace(0,h,ny);
     yy = yy(2:end-1);
